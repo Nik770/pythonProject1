@@ -1,0 +1,14 @@
+# Задайте список из n чисел последовательности (1+1/n)**n и выведите на экран их сумму.
+N = int(input("Введите N: "))
+def Mult(n):
+    x = 0
+    i = 1
+    lst = []
+    while i <= N:
+        n = i
+        x = (1 + 1 / n) ** n
+        lst.append(x)
+        i+=1
+    return(lst)
+print(Mult(N))
+print(sum(Mult(N)))
