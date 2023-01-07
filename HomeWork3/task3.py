@@ -3,10 +3,10 @@
 # это нормально и особенность данного языка программирования. ваш ответ может не совпадать с примером(может получитя 0,20)
 # Пример:- [1.1, 1.2, 3.1, 5, 10.01] => 0.19
 import random
-lst2 = [(round(random.random()*10, 2)),(round(random.random()*10, 2)),(round(random.random()*10, 2)),
-        (round(random.random()*10, 2)),(round(random.random()*10, 2)),(round(random.random()*10, 2))]
+lst2 = [(round(random.random()*10, 2)),(round(random.random()*10, 2)),(round(random.random()*10, 2)),#не смог почему-то заполнить
+        (round(random.random()*10, 2)),(round(random.random()*10, 2)),(round(random.random()*10, 2))]#пустой список циклом
 print(lst2)
 min_num = min(lst2)
 max_num = max(lst2)
 print(f'max = {max_num}, min = {min_num}')
-print(f'Разница: {max_num%1 - min_num%1}')
+print(f'result: {max_num%1 - min_num%1}')
