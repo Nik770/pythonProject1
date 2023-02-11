@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "surname": Иванов,
+        "name": Иван,
+        "patronymic": Иванович,
+        "position": разнорабочий,
+        "salary": 30000
+    },
+    {
+        "id": 2,
+        "surname": Петров,
+        "name": Петр,
+        "patronymic": Петрович,
+        "position": маляр,
+        "salary": 32000
+    },
+    {
+        "id": 3,
+        "surname": Семенов,
+        "name": Степан,
+        "patronymic": Степанович,
+        "position": сантехник,
+        "salary": 30000
+    },
+    {
+        "id": 4,
+        "surname": Сидоров,
+        "name": Сергей,
+        "patronymic": Сергеевич,
+        "position": прораб,
+        "salary": 40000
+    },
+    {
+        "id": 5,
+        "surname": Изюмов,
+        "name": Антон,
+        "patronymic": Степанович,
+        "position": рабочий,
+        "salary": 29000
+    }
+]
